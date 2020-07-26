@@ -1,7 +1,7 @@
-	{
+{
   "name": "fabri-script-editor",
   "main": "./lib/fabri-script--editor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds 'Run in Minecraft' support via FabriScript",
   "keywords": [],
   "activationCommands": {
