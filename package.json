@@ -1,0 +1,19 @@
+{
+  "name": "fabri-script-editor",
+  "main": "./lib/fabri-script--editor",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "fabri-script--editor:toggle"
+  },
+  "repository": "https://github.com/FabriScript/fabri-script-editor",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "deserializers": {
+    "fabriscript/FabriScriptRunView": "deserializeFabriScriptRunView"
+  }
+}

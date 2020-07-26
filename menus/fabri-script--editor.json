@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Show run window.",
+        "command": "fabri-script--editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "FabriScript",
+          "submenu": [
+            {
+              "label": "Show run window.",
+              "command": "fabri-script--editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
